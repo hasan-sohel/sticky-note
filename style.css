@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: yellowgreen;
+}
+
+header h1{
+    text-align: center;
+    padding: 12px;
+}
+
+#add{
+    float: right;
+    margin: 5px;
+    padding: 6px 9px;
+    border-radius: 8px;
+    background-color: rgb(85, 222, 176);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#add:hover{
+    background-color: rgb(40, 110, 106);
+    color: aliceblue;
+}
+
+#main-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 45px 0px;
+}
+
+.main{
+    height: 360px;
+    width: 360px;
+    margin: 12px 0px;
+}
+
+.first-part{
+    background-color: rgb(68, 188, 192);
+    padding: 9px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.counting{
+    background-color: rgb(116, 148, 207);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+}
+
+.titles{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.buttons{
+    border-radius: 100px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-button:hover{
+    background-color: rgb(135, 205, 135);
+    color: aliceblue;
+}
+
+.delete-button:hover{
+    background-color: rgb(230, 75, 75);
+    color: aliceblue;
+}
+
+.details{
+    resize: none;
+    height: 300px;
+    width: 360px;
+    border: 1px solid gray;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
